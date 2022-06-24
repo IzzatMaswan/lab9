@@ -3,7 +3,7 @@
     echo "<html>";
 
     $sid = session_id();
-    echo "Season ID returned by session_id(): ".$sid"\n ";
+    echo "Season ID returned by session_id(): ".$sid." \n ";
     $sid = SID;
     echo "Season ID returned by SID: ".$sid."\n";
 
